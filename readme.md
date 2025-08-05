@@ -23,7 +23,7 @@ Please note that this project is not actively maintained and is kept for histori
 
 -   **Framework:** Laravel 5.1
 -   **Language:** PHP
--   **Database:** Typically MySQL (as configured in a standard Laravel 5.1 setup)
+-   **Database:** MySQL 
 
 ## Getting Started
 
