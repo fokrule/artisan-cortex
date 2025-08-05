@@ -1,27 +1,34 @@
-## Laravel PHP Framework
+# Artisan-Cortex
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Overview
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+This project, "Artisan-Cortex," is a foundational blog application developed using the Laravel framework. It served as one of my earliest projects to explore the core concepts of building a web application, including routing, user authentication, and database management with an MVC architecture.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Project Snapshot (Laravel 5.1)
 
-## Official Documentation
+This repository is a legacy project, originally created in **Laravel 5.1** approximately 6-7 years ago. It is preserved here as a testament to my early work and learning journey with the framework. It showcases my foundational understanding of PHP and the Laravel ecosystem at that time.
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Please note that this project is not actively maintained and is kept for historical purposes.
 
-## Contributing
+## Key Features
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+-   **User Authentication & Authorization:** Implements a full user authentication system with secure login, registration, and password reset functionalities.
+-   **Blog Post Management:** Provides full CRUD (Create, Read, Update, Delete) functionality for managing blog posts.
+-   **Content Tagging & Categorization:** Supports resource-based management for creating, updating, and deleting categories and tags for blog posts.
+-   **Interactive Comments:** Includes a complete system for users to add, edit, and delete comments on blog posts.
+-   **Protected Routes:** Utilizes middleware to protect core features and ensure only authenticated users can access certain parts of the application.
+-   **Dedicated Pages:** Features dedicated routes for the blog's main pages, including About, Contact, and a dynamic blog index.
 
-## Security Vulnerabilities
+## Technology Stack
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+-   **Framework:** Laravel 5.1
+-   **Language:** PHP
+-   **Database:** Typically MySQL (as configured in a standard Laravel 5.1 setup)
 
-### License
+## Getting Started
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Due to the project's legacy version, the setup process may differ from modern Laravel applications. It would require an environment compatible with Laravel 5.1, including a specific version of PHP. The project is best viewed as a code sample rather than a deployable application.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
